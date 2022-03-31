@@ -157,13 +157,10 @@ export const logosData = {
                 items: {},
             },
             icons: {
-                name: 'Иконки',
+                name: 'Еда',
                 items: {
-                    mustache: {
-                        shape: getMustache('shield'),
-                    },
-                    coffeeCap: {
-                        shape: getCoffeeCap('shield'),
+                    apple: {
+                        shape: getApple('shield')
                     },
                     burger: {
                         shape: getBurger('shield')
@@ -174,33 +171,52 @@ export const logosData = {
                     taco: {
                         shape: getTako('shield')
                     },
-                    blackboard: {
-                        shape: getBlackboard('')
-                    },
-                    globus: {
-                        shape: getGlobus('')
-                    },
-                    diplom: {
-                        shape: getDiplom('')
-                    }
                 },
-
             },
             shapes: {
-                name: 'Формы',
+                name: 'Школа',
                 items: {
+                    blackboard: {
+                        shape: getBlackboard('shield')
+                    },
+                    globus: {
+                        shape: getGlobus('shield')
+                    },
+                    diplom: {
+                        shape: getDiplom('shield')
+                    }
+                }
+            },
+            clothes: {
+                name: 'Одежда',
+                items: {
+                    tie: {
+                        shape: getTie('shield')
+                    },
+                    bag: {
+                        shape: getBag('shield')
+                    },
+                    shirt: {
+                        shape: getShirt('shield')
+                    }
+                }
+            },
+            more: {
+                name: 'Прочее',
+                items: {
+                    mustache: {
+                        shape: getMustache('shield'),
+                    },
+                    coffeeCap: {
+                        shape: getCoffeeCap('shield'),
+                    },
+                    anchor: {
+                        shape: getAnchor('shield'),
+                    },
                     doubleLine: {
                         shape: getDoubleLine('shield'),
                     },
                 }
-            },
-            more: {
-                name: 'Ещё',
-                items: {
-                    anchor: {
-                        shape: getAnchor('shield'),
-                    },
-                },
             },
         },
     },
@@ -224,8 +240,7 @@ export const logosData = {
                         content: 'W.R.M.',
                         contentType: 'text',
                     },
-                },
-                
+                }, 
             },
         },
         swag: {
@@ -234,13 +249,10 @@ export const logosData = {
                 items: {},
             },
             icons: {
-                name: 'Иконки',
+                name: 'Еда',
                 items: {
-                    mustache: {
-                        shape: getMustache('rhombus'),
-                    },
-                    coffeeCap: {
-                        shape: getCoffeeCap('rhombus'),
+                    apple: {
+                        shape: getApple('rhombus')
                     },
                     burger: {
                         shape: getBurger('rhombus')
@@ -251,33 +263,52 @@ export const logosData = {
                     taco: {
                         shape: getTako('rhombus')
                     },
-                    blackboard: {
-                        shape: getBlackboard('')
-                    },
-                    globus: {
-                        shape: getGlobus('')
-                    },
-                    diplom: {
-                        shape: getDiplom('')
-                    }
                 },
             },
             shapes: {
-                name: 'Формы',
+                name: 'Школа',
                 items: {
+                    blackboard: {
+                        shape: getBlackboard('rhombus')
+                    },
+                    globus: {
+                        shape: getGlobus('rhombus')
+                    },
+                    diplom: {
+                        shape: getDiplom('rhombus')
+                    }
+                }
+            },
+            clothes: {
+                name: 'Одежда',
+                items: {
+                    tie: {
+                        shape: getTie('rhombus')
+                    },
+                    bag: {
+                        shape: getBag('rhombus')
+                    },
+                    shirt: {
+                        shape: getShirt('rhombus')
+                    }
+                }
+            },
+            more: {
+                name: 'Прочее',
+                items: {
+                    mustache: {
+                        shape: getMustache('rhombus'),
+                    },
+                    coffeeCap: {
+                        shape: getCoffeeCap('rhombus'),
+                    },
+                    anchor: {
+                        shape: getAnchor('rhombus'),
+                    },
                     doubleLine: {
                         shape: getDoubleLine('rhombus'),
                     },
                 }
-            },
-            more: {
-                name: 'Ещё',
-                items: {
-                    anchor: {
-                        shape: getAnchor('rhombus'),
-                    },
-                },
-
             },
         },
     },
@@ -310,13 +341,10 @@ export const logosData = {
                 items: {},
             },
             icons: {
-                name: 'Иконки',
+                name: 'Еда',
                 items: {
-                    mustache: {
-                        shape: getMustache('wreath'),
-                    },
-                    coffeeCap: {
-                        shape: getCoffeeCap('wreath'),
+                    apple: {
+                        shape: getApple('wreath')
                     },
                     burger: {
                         shape: getBurger('wreath')
@@ -327,33 +355,53 @@ export const logosData = {
                     taco: {
                         shape: getTako('wreath')
                     },
-                    blackboard: {
-                        shape: getBlackboard('')
-                    },
-                    globus: {
-                        shape: getGlobus('')
-                    },
-                    diplom: {
-                        shape: getDiplom('')
-                    }
                 },
             },
             shapes: {
-                name: 'Формы',
+                name: 'Школа',
                 items: {
+                    blackboard: {
+                        shape: getBlackboard('wreath')
+                    },
+                    globus: {
+                        shape: getGlobus('wreath')
+                    },
+                    diplom: {
+                        shape: getDiplom('wreath')
+                    }
+                }
+            },
+            clothes: {
+                name: 'Одежда',
+                items: {
+                    tie: {
+                        shape: getTie('wreath')
+                    },
+                    bag: {
+                        shape: getBag('wreath')
+                    },
+                    shirt: {
+                        shape: getShirt('wreath')
+                    }
+                }
+            },
+            more: {
+                name: 'Прочее',
+                items: {
+                    mustache: {
+                        shape: getMustache('wreath'),
+                    },
+                    coffeeCap: {
+                        shape: getCoffeeCap('wreath'),
+                    },
+                    anchor: {
+                        shape: getAnchor('wreath'),
+                    },
                     innerCircle: {
                         shape: getInnerCircle('wreath'),
                     },
                     doubleLine: {
                         shape: getDoubleLine('wreath'),
-                    },
-                }
-            },
-            more: {
-                name: 'Ещё',
-                items: {
-                    anchor: {
-                        shape: getAnchor('wreath'),
                     },
                 }
             },
@@ -403,13 +451,10 @@ export const logosData = {
                 items: {},
             },
             icons: {
-                name: 'Иконки',
+                name: 'Еда',
                 items: {
-                    mustache: {
-                        shape: getMustache('cross'),
-                    },
-                    coffeeCap: {
-                        shape: getCoffeeCap('cross'),
+                    apple: {
+                        shape: getApple('cross')
                     },
                     burger: {
                         shape: getBurger('cross')
@@ -420,35 +465,49 @@ export const logosData = {
                     taco: {
                         shape: getTako('cross')
                     },
-                    blackboard: {
-                        shape: getBlackboard('')
-                    },
-                    globus: {
-                        shape: getGlobus('')
-                    },
-                    diplom: {
-                        shape: getDiplom('')
-                    }
                 },
             },
             shapes: {
-                name: 'Формы',
+                name: 'Школа',
                 items: {
-                    // innerCircle: {
-                    //     shape: getInnerCircle('cross'),
-                    // },
-                    // doubleLine: {
-                    //     shape: getDoubleLine('cross'),
-                    // },
+                    blackboard: {
+                        shape: getBlackboard('cross')
+                    },
+                    globus: {
+                        shape: getGlobus('cross')
+                    },
+                    diplom: {
+                        shape: getDiplom('cross')
+                    }
+                }
+            },
+            clothes: {
+                name: 'Одежда',
+                items: {
+                    tie: {
+                        shape: getTie('cross')
+                    },
+                    bag: {
+                        shape: getBag('cross')
+                    },
+                    shirt: {
+                        shape: getShirt('cross')
+                    }
                 }
             },
             more: {
-                name: 'Ещё',
+                name: 'Прочее',
                 items: {
+                    mustache: {
+                        shape: getMustache('cross'),
+                    },
+                    coffeeCap: {
+                        shape: getCoffeeCap('cross'),
+                    },
                     anchor: {
                         shape: getAnchor('cross'),
                     },
-                },
+                }
             },
         },
     },
