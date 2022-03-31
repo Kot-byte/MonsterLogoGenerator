@@ -43,13 +43,13 @@ let activeStageNum = 0;
 const updateStagesTitle = (stageNum) => {
     switch (stageNum) {
         case 1:
-            stagesTitle.textContent = 'Lets Personalize This Shiz';
+            stagesTitle.textContent = 'Давайте персонализируем эту форму';
         break;
         case 2:
-            stagesTitle.textContent = 'Add Some Swag';
+            stagesTitle.textContent = 'Добавим немного стиля';
         break;
         case 3:
-            stagesTitle.textContent = 'Download Monster Logo';
+            stagesTitle.textContent = 'Выбор формата загрузки';
         break;
     }
 }

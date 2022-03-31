@@ -63,6 +63,9 @@ const onShapeListClick = (e) => {
 
         changeShape(targetShapeBtn.dataset.shape);
         videoPopupDialog.style.display = 'none';
+        document.querySelector('.shapeColorPicker').value = '#000000'
+        document.querySelector('.shapeColorPickerContainer').style.display = 'block'
+
         allowNextStage();
     }
 }

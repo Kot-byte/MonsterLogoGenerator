@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+    <g stroke="#020203" style="stroke: rgb(240, 244, 16);">
+        <style type="text/css">
+            .cross{fill:none;;stroke-width:6.6667;stroke-miterlimit:2.6667;}
+        </style>
+        <line x1="124.5" y1="130" x2="387.5" y2="394"></line>
+        <line x1="124.5" y1="394" x2="387.5" y2="130"></line>
+    </g>
+
+    <text x="233.3828125px" y="151.566358044px" style="font-size: 85px; font-family: Quicksand, sans-serif; font-weight: 400;">L</text>
+
+    <text x="355.4375px" y="285.566358044px" style="font-size: 85px; font-family: Quicksand, sans-serif; font-weight: 400;">O</text>
+
+    <text x="226.4609375px" y="419.566358044" style="font-size: 85px; font-family: Quicksand, sans-serif; font-weight: 400;">G</text>
+
+    <text x="92.4375px" y="285.566358044px" style="font-size: 85px; font-family: Quicksand, sans-serif; font-weight: 400;">O</text>
+</svg>

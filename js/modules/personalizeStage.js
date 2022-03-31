@@ -173,6 +173,7 @@ const changePersonalizationType = (personalizationType, activeLogosDataItem) => 
 personalizationPopup.querySelector('.personalize-popup-clear-btn').onclick = () => {
     personalizationType = targetPersonalizeBtn.dataset.personalize;
     changePersonalizationType(personalizationType, activeLogosDataItem);
+    document.querySelector('.textColorPicker').value = '#000000'
 }
 
 const onPersonalizationListClick = (e) => {

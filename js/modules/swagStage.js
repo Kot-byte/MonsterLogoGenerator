@@ -85,6 +85,8 @@ const onSwagClick = (e) => {
             swagPopup.querySelector(`.swag-popup-list[data-swag = ${e.target.closest('.swag-btn').dataset.swag}]`).classList.add('swag-popup-list-active');
 
             swagPopupTitle.textContent = e.target.closest('.swag-btn').textContent;
+
+            document.querySelector('.tabs-section').style.display = 'flex'
         } else {
             swagPopup.classList.remove('swag-popup-active');
             stages.classList.remove('stages-on-popup-active');
@@ -97,6 +99,9 @@ const onSwagClick = (e) => {
             swagPopup.querySelectorAll('.swag-item-btn').forEach(elem => {
                 elem.classList.remove('stages-btn-active');
             });
+            
+            document.querySelector('.color-picker-popup').style.display = 'none'
+            document.querySelector('.tabs-section').style.display = 'none'
         }
     }
 
@@ -172,6 +177,8 @@ const changeSwag = (swagGroup, swagItem) => {
         resultLogo.querySelectorAll('.swag').forEach(elem => {
             elem.remove();
         });
+        // document.querySelector('.color-picker-popup').style.display = 'none'
+        // document.querySelector('.tabs-section').style.display = 'none'
     }
 }
 

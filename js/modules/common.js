@@ -13,11 +13,13 @@ import { getDoubleLine } from './swag/doubleLine.js';
 import { getBurger } from './swag/burger.js';
 import { getMilkShake } from './swag/milkshake.js';
 import { getTako } from './swag/taco.js';
-import { getCarSettings } from './swag/carSettings.js';
 import { getApple } from './swag/apple.js';
 import { getBlackboard } from './swag/blackboard.js';
 import { getGlobus } from './swag/globus.js';
 import { getDiplom } from './swag/diplom.js';
+import { getTie } from './swag/tie.js';
+import { getBag } from './swag/bag.js';
+import { getShirt } from './swag/shirt.js';
 
 export let resultLogo = document.querySelector('.result-logo');
 export const personalizationPopup = document.querySelector('.personalize-popup');
@@ -60,13 +62,10 @@ export const logosData = {
                 items: {},
             },
             icons: {
-                name: 'Иконки',
+                name: 'Еда',
                 items: {
-                    mustache: {
-                        shape: getMustache('circle'),
-                    },
-                    coffeeCap: {
-                        shape: getCoffeeCap('circle'),
+                    apple: {
+                        shape: getApple('circle')
                     },
                     burger: {
                         shape: getBurger('circle')
@@ -77,12 +76,11 @@ export const logosData = {
                     taco: {
                         shape: getTako('circle')
                     },
-                    // carSettings: {
-                    //     shape: getCarSettings('circle')
-                    // },
-                    // apple: {
-                    //     shape: getApple('circle')
-                    // }
+                },
+            },
+            shapes: {
+                name: 'Школа',
+                items: {
                     blackboard: {
                         shape: getBlackboard('')
                     },
@@ -92,24 +90,39 @@ export const logosData = {
                     diplom: {
                         shape: getDiplom('')
                     }
-                },
+                }
             },
-            shapes: {
-                name: 'Формы',
+            clothes: {
+                name: 'Одежда',
                 items: {
+                    tie: {
+                        shape: getTie('')
+                    },
+                    bag: {
+                        shape: getBag('')
+                    },
+                    shirt: {
+                        shape: getShirt('')
+                    }
+                }
+            },
+            more: {
+                name: 'Прочее',
+                items: {
+                    mustache: {
+                        shape: getMustache('circle'),
+                    },
+                    coffeeCap: {
+                        shape: getCoffeeCap('circle'),
+                    },
+                    anchor: {
+                        shape: getAnchor('circle'),
+                    },
                     innerCircle: {
                         shape: getInnerCircle('circle'),
                     },
                     doubleLine: {
                         shape: getDoubleLine('circle'),
-                    },
-                }
-            },
-            more: {
-                name: 'Ещё',
-                items: {
-                    anchor: {
-                        shape: getAnchor('circle'),
                     },
                 }
             },
